@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use OMEGA PRIME CORE in academic work, please cite it as below."
+title: "OMEGA PRIME CORE 7.0: open engine for design, calibration and uncertainty quantification of plasmonic LSPR DNA nanosensors"
+abstract: >-
+  Monolithic, dependency-light (numpy + scipy) engine covering gold permittivity
+  (Rakic Lorentz-Drude + additive Kreibig), exact Mie theory for bare and
+  core-shell spheres, refined LSPR peak detection with FWHM and bulk sensitivity,
+  DNA nearest-neighbor thermodynamics (SantaLucia 1998) with Monte-Carlo
+  propagation of DeltaG uncertainty, analytical thermal modelling, and Bayesian
+  Langmuir calibration with analytically marginalized S_max, posterior predictive
+  checks, identifiability diagnostics and probabilistic LOD. All outputs carry an
+  explicit epistemic status. No experimental, biological or clinical validation
+  is claimed.
+authors:
+  - family-names: "YOUR-FAMILY-NAME"
+    given-names: "YOUR-GIVEN-NAME"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # optional, uncomment if you have one
+    # affiliation: "Your institution"                 # optional
+    # email: "you@example.com"                        # optional
+version: "7.0.0"
+date-released: "2026-11-13"
+license: "MIT"                # change to your actual license: MIT, Apache-2.0, BSD-3-Clause, GPL-3.0, etc.
+repository-code: "https://github.com/YOUR-USERNAME/omega-prime-core"
+url: "https://github.com/YOUR-USERNAME/omega-prime-core"
+keywords:
+  - "LSPR"
+  - "plasmonics"
+  - "gold nanoparticles"
+  - "Mie theory"
+  - "DNA hybridization"
+  - "nearest-neighbor thermodynamics"
+  - "Bayesian calibration"
+  - "uncertainty quantification"
+  - "identifiability"
+  - "biosensors"
+type: software
